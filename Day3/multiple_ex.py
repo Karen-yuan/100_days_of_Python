@@ -1,3 +1,4 @@
+#healthy status check
 height=float(input("enter your height in m:"))
 weight=float(input("enter your weight in kg:"))
 BMI=round(weight/(height*height))
@@ -11,7 +12,8 @@ elif BMI<35:
     print(f"your BMI is:{BMI},you are obese")
 else:
     print(f"your BMI is:{BMI},you are clinically obese")
-from operator import irshift
+#year check project
+from operator import irshif
 
 
 year=int(input("Which year do you want to check?"))
